@@ -20,10 +20,6 @@ a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
-
 .content {
     width: 1110px;
     max-width: calc(100% - 48px);
