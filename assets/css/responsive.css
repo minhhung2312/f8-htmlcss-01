@@ -263,4 +263,12 @@
     .featured .sub-title {
         font-size: 3rem;
     }
+
+    .featured .item .icon {
+        margin-left: 18px;
+    }
+
+    .featured .item .labelv {
+        font-size: 1.1rem;
+    }
 }
