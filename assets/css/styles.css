@@ -311,7 +311,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -534,7 +535,6 @@ a {
     position: relative;
     display: flex;
     align-items: center;
-    width: 1110px;
     height: 370px;
     border-radius: 20px;
     background: #063183;
@@ -542,7 +542,6 @@ a {
 
 .subscription .info {
     width: 671px;
-    /* max-width: 100%; */
     padding: 0 80px;
 }
 
@@ -586,7 +585,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
