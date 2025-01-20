@@ -249,3 +249,18 @@
         row-gap: 24px;
     }
 }
+
+/* Small mobile */
+@media screen and (max-width: 575px) {
+    .content {
+        max-width: calc(100% - 32px);
+    }
+
+    .hero-wrap .title {
+        font-size: 4.4rem;
+    }
+
+    .featured .sub-title {
+        font-size: 3rem;
+    }
+}
